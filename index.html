@@ -1,0 +1,92 @@
+<html>
+
+<head>
+  <link rel="shortcut icon" href="src/assets/favicon.ico" type="image/x-icon">
+  <link rel="icon" href="src/assets/favicon.ico" type="image/x-icon">
+  <meta charset="utf-8">
+  <meta name="og:site_name" content="Azur Lane Character Sorting">
+  <meta name="og:description" content="Website for sorting Azur Lane characters by most favourite.">
+  <meta name="og:image" content="https://github.com/KidaJiwo/KidaJiwo.github.io/raw/develop/KidaJiwo.github.io/src/assets/img/ogimage.jpg">
+  <title>Azur Lane Character Sorting</title>
+
+  <link rel="stylesheet" type="text/css" href="src/css/reset.css">
+  <link rel="stylesheet" type="text/css" href="src/css/styles.css">
+  <link href="https://fonts.googleapis.com/css?family=Source+Sans+Pro&display=swap" rel="stylesheet">
+
+
+  <script src="src/js/data.js"></script>
+  <script src="src/js/data/2019-12-13.js"></script>
+
+  <script src="src/js/html2canvas.min.js"></script>
+  <script src="src/js/lz-string.min.js"></script>
+  <script src="src/js/seedrandom.min.js"></script>
+  <script src="src/js/main.js"></script>
+</head>
+
+<body>
+<div class="container">
+	<p style="padding-bottom:20px;">Azur Lane Character Sorter</p>
+    <div class="progress">
+        <span class="progressbattle"></span>
+        <div class="progressbar">
+            <div class="progressfill"><span class="progresstext"></span></div>
+        </div>
+    </div>
+
+    <div class="sorter">
+        <img src="src/assets/defaultL.jpg" class="left sort image">
+
+        <div class="starting start button">Click to Start!</div>
+        <div class="starting load button">Load <span></span></div>
+
+        <div class="loading button"><div></div><span>Loading...</span></div>
+
+        <div class="sorting tie button">Tie</div>
+        <div class="sorting undo button">Undo</div>
+        <div class="sorting save button">Save Progress</div>
+
+        <div class="finished save button">Generate Result URL</div>
+        <div class="finished getimg button">Generate Image</div>
+        <div class="finished list button">Generate Text List</div>
+
+        <img src="src/assets/defaultR.jpg" class="right sort image">
+
+        <div class="left sort text"><p></p></div>
+        <div class="right sort text"><p></p></div>
+    </div>
+
+    <div class="options"></div>
+    <div class="image selector">Display Images on Result: </div>
+    <div class="time taken"></div>
+    <div class="results"></div>
+
+    <div class="info">
+        <a href="https://github.com/execfera/charasort/">Source Code</a> | <a class="clearsave">Clear Save Data</a>
+        
+        <br><br>
+
+        <p>Sorter for Azur Lane characters. Pick any filters, and hit the Start button.</p>
+        <p style ="font-weight: bold;">Certain options have details that you can hover to read.</p>
+        <p>Click on the character you like better from the two, or tie them if you like them equally or don't know them.</p>
+        <p>Depending on the selection of filters, you may go over 1000 picks, so it'll take a fair bit of time. Be sure to save first before quitting!</p>
+
+        <br><br>
+
+        <p>Keyboard controls during sorting: H/LeftArrow (pick left) - J/DownArrow (undo) - K/UpArrow (tie) - L/RightArrow (pick right) - S (save progress).</p>
+        <p>Before sorting: S/Enter (start sorting) - L (load progress).
+        <p>1/2/3 always correspond to the first/second/third buttons.</p>
+        
+        <br><br>
+
+		<p><u>Changelog</u></p>
+        <p>December 17, 2019 - The site now exists.</p>
+		
+		<br><br>
+		
+		<p>Any issues or feedback? Contact me through Discord DMs @ Kida#6151 or ping me somewhere around the Azur Lane Official Discord.</p>
+		<p>ALL IMAGES ON THIS WEBSITE ARE THE COPYRIGHTED PROPERTY OF THEIR RESPECTIVE OWNERS</p>
+    </div>
+</div>
+</body>
+
+</html>
