@@ -20,4 +20,4 @@ let dataSetVersion = '';
 /**
  * Image root, will be appended to the start of every image URL.
  */
-const imageRoot = https://raw.githubusercontent.com/KidaJiwo/kidajiwo.github.io/master/src/assets/img/';
+const imageRoot = 'https://raw.githubusercontent.com/KidaJiwo/kidajiwo.github.io/master/src/assets/img/';
