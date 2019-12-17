@@ -1342,8 +1342,8 @@ dataSet[dataSetVersion].characterData = [
    }
  },
  {
-   name: "K�ln",
-   img: "K�ln.png",
+   name: "Köln",
+   img: "Köln.png",
    opts: {
       faction: "iron"
    }
@@ -3198,8 +3198,8 @@ dataSet[dataSetVersion].characterData = [
    }
  },
  {
-   name: "K�ln Retrofit",
-   img: "K�ln Kai.png",
+   name: "Kôln Retrofit",
+   img: "Kôln Kai.png",
    opts: {
       faction: "iron",
    retro: true
