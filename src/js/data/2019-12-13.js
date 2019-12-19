@@ -2032,8 +2032,8 @@ dataSet[dataSetVersion].characterData = [
    }
  },
  {
-   name: "Kaga Battleship",
-   img: "Kaga (Battleship).png",
+   name: "Kaga (Battleship)",
+   img: "Kaga Battleship.png",
    opts: {
       faction: "sakura"
    }
