@@ -1328,8 +1328,8 @@ dataSet[dataSetVersion].characterData = [
    }
  },
  {
-   name: "K�nigsberg",
-   img: "K�nigsberg.png",
+   name: "Königsberg",
+   img: "Konigsberg.png",
    opts: {
       faction: "iron"
    }
@@ -1343,7 +1343,7 @@ dataSet[dataSetVersion].characterData = [
  },
  {
    name: "Köln",
-   img: "Köln.png",
+   img: "Koln.png",
    opts: {
       faction: "iron"
    }
@@ -1819,28 +1819,28 @@ dataSet[dataSetVersion].characterData = [
    }
  },
  {
-   name: "I19",
+   name: "I-19",
    img: "I-19.png",
    opts: {
       faction: "sakura"
    }
  },
  {
-   name: "I26",
+   name: "I-26",
    img: "I-26.png",
    opts: {
       faction: "sakura"
    }
  },
  {
-   name: "I58",
+   name: "I-58",
    img: "I-58.png",
    opts: {
       faction: "sakura"
    }
  },
  {
-   name: "U81",
+   name: "U-81",
    img: "U-81.png",
    opts: {
       faction: "iron"
@@ -1854,14 +1854,14 @@ dataSet[dataSetVersion].characterData = [
    }
  },
  {
-   name: "U47",
+   name: "U-47",
    img: "U-47.png",
    opts: {
       faction: "iron"
    }
  },
  {
-   name: "U557",
+   name: "U-557",
    img: "U-557.png",
    opts: {
       faction: "iron"
@@ -2103,7 +2103,7 @@ dataSet[dataSetVersion].characterData = [
    }
  },
  {
-   name: "ShangriLa",
+   name: "Shangri-La",
    img: "Shangri-La.png",
    opts: {
       faction: "eagle",
@@ -2127,7 +2127,7 @@ dataSet[dataSetVersion].characterData = [
    }
  },
  {
-   name: "I13",
+   name: "I-13",
    img: "I-13.png",
    opts: {
       faction: "sakura",
@@ -2143,14 +2143,14 @@ dataSet[dataSetVersion].characterData = [
    }
  },
  {
-   name: "Hieichan",
+   name: "Hiei-chan",
    img: "Hiei-chan.png",
    opts: {
       faction: "sakura"
    }
  },
  {
-   name: "Akagichan",
+   name: "Akagi-chan",
    img: "Akagi-chan.png",
    opts: {
       faction: "sakura"
@@ -2164,14 +2164,14 @@ dataSet[dataSetVersion].characterData = [
    }
  },
  {
-   name: "U556",
+   name: "U-556",
    img: "U-556.png",
    opts: {
       faction: "iron"
    }
  },
  {
-   name: "U73",
+   name: "U-73",
    img: "U-73.png",
    opts: {
       faction: "iron"
@@ -2206,8 +2206,8 @@ dataSet[dataSetVersion].characterData = [
    }
  },
  {
-   name: "Lil Sandy",
-   img: "Li'l Sandy.png",
+   name: "Li'l Sandy",
+   img: "Lil Sandy.png",
    opts: {
       faction: "eagle"
    }
@@ -2229,43 +2229,43 @@ dataSet[dataSetVersion].characterData = [
    }
  },
  {
-   name: "LOpini�tre",
-   img: "L'Opini�tre.png",
+   name: "L'Opiniâtre",
+   img: "LOpiniatre.png",
    opts: {
       faction: "iris",
    notglobal: true
    }
  },
  {
-   name: "I25",
+   name: "I-25",
    img: "I-25.png",
    opts: {
       faction: "sakura"
    }
  },
  {
-   name: "I56",
+   name: "I-56",
    img: "I-56.png",
    opts: {
       faction: "sakura"
    }
  },
  {
-   name: "I168",
+   name: "I-168",
    img: "I-168.png",
    opts: {
       faction: "sakura"
    }
  },
  {
-   name: "U101",
+   name: "U-101",
    img: "U-101.png",
    opts: {
       faction: "iron"
    }
  },
  {
-   name: "U522",
+   name: "U-522",
    img: "U-522.png",
    opts: {
       faction: "iron"
@@ -2377,7 +2377,7 @@ dataSet[dataSetVersion].characterData = [
    }
  },
  {
-   name: "U110",
+   name: "U-110",
    img: "U-110.png",
    opts: {
       faction: "iron"
@@ -2391,43 +2391,48 @@ dataSet[dataSetVersion].characterData = [
    }
  },
  {
-   name: "Gascogne Muse",
-   img: "Gascogne (Muse).png",
+   name: "Gascogne (Muse)",
+   img: "Gascogne Muse.png",
    opts: {
       faction: "vichya",
-   notglobal: true
+   notglobal: true,
+   collab: true
    }
  },
  {
-   name: "Akagi Muse",
-   img: "Akagi (Muse).png",
+   name: "Akagi (Muse)",
+   img: "Akagi Muse.png",
    opts: {
       faction: "sakura",
-   notglobal: true
+   notglobal: true,
+   collab: true
    }
  },
  {
-   name: "Cleveland Muse",
-   img: "Cleveland (Muse).png",
+   name: "Cleveland (Muse)",
+   img: "Cleveland Muse.png",
    opts: {
       faction: "eagle",
-   notglobal: true
+   notglobal: true,
+   collab: true
    }
  },
  {
-   name: "Sheffield Muse",
-   img: "Sheffield (Muse).png",
+   name: "Sheffield (Muse)",
+   img: "Sheffield Muse.png",
    opts: {
       faction: "royal",
-   notglobal: true
+   notglobal: true,
+   collab: true
    }
  },
  {
-   name: "Admiral Hipper Muse",
-   img: "Admiral Hipper (Muse).png",
+   name: "Admiral Hipper (Muse)",
+   img: "Admiral Hipper Muse.png",
    opts: {
       faction: "iron",
-   notglobal: true
+   notglobal: true,
+   collab: true
    }
  },
  {
@@ -2454,8 +2459,8 @@ dataSet[dataSetVersion].characterData = [
    }
  },
  {
-   name: "Jeanne dArc",
-   img: "Jeanne d'Arc.png",
+   name: "Jeanne d'Arc",
+   img: "Jeanne dArc.png",
    opts: {
       faction: "iris",
    unreleased: true
@@ -2786,7 +2791,7 @@ dataSet[dataSetVersion].characterData = [
    }
  },
  {
-   name: "Cassin Retrofit",
+   name: "Cassin (Retrofit)",
    img: "Cassin Kai.png",
    opts: {
       faction: "eagle",
@@ -2794,7 +2799,7 @@ dataSet[dataSetVersion].characterData = [
    }
  },
  {
-   name: "Downes Retrofit",
+   name: "Downes (Retrofit)",
    img: "Downes Kai.png",
    opts: {
       faction: "eagle",
@@ -2802,7 +2807,7 @@ dataSet[dataSetVersion].characterData = [
    }
  },
  {
-   name: "Laffey Retrofit",
+   name: "Laffey (Retrofit)",
    img: "Laffey Kai.png",
    opts: {
       faction: "eagle",
@@ -2810,7 +2815,7 @@ dataSet[dataSetVersion].characterData = [
    }
  },
  {
-   name: "Sims Retrofit",
+   name: "Sims (Retrofit)",
    img: "Sims Kai.png",
    opts: {
       faction: "eagle",
@@ -2818,7 +2823,7 @@ dataSet[dataSetVersion].characterData = [
    }
  },
  {
-   name: "Hammann Retrofit",
+   name: "Hammann (Retrofit)",
    img: "Hammann Kai.png",
    opts: {
       faction: "eagle",
@@ -2826,7 +2831,7 @@ dataSet[dataSetVersion].characterData = [
    }
  },
  {
-   name: "San Diego Retrofit",
+   name: "San Diego (Retrofit)",
    img: "San Diego Kai.png",
    opts: {
       faction: "eagle",
@@ -2834,7 +2839,7 @@ dataSet[dataSetVersion].characterData = [
    }
  },
  {
-   name: "Portland Retrofit",
+   name: "Portland (Retrofit)",
    img: "Portland Kai.png",
    opts: {
       faction: "eagle",
@@ -2842,7 +2847,7 @@ dataSet[dataSetVersion].characterData = [
    }
  },
  {
-   name: "Nevada Retrofit",
+   name: "Nevada (Retrofit)",
    img: "Nevada Kai.png",
    opts: {
       faction: "eagle",
@@ -2850,7 +2855,7 @@ dataSet[dataSetVersion].characterData = [
    }
  },
  {
-   name: "Oklahoma Retrofit",
+   name: "Oklahoma (Retrofit)",
    img: "Oklahoma Kai.png",
    opts: {
       faction: "eagle",
@@ -2858,7 +2863,7 @@ dataSet[dataSetVersion].characterData = [
    }
  },
  {
-   name: "Long Island Retrofit",
+   name: "Long Island (Retrofit)",
    img: "Long Island Kai.png",
    opts: {
       faction: "eagle",
@@ -2866,7 +2871,7 @@ dataSet[dataSetVersion].characterData = [
    }
  },
  {
-   name: "Bogue Retrofit",
+   name: "Bogue (Retrofit)",
    img: "Bogue Kai.png",
    opts: {
       faction: "eagle",
@@ -2874,7 +2879,7 @@ dataSet[dataSetVersion].characterData = [
    }
  },
  {
-   name: "Langley Retrofit",
+   name: "Langley (Retrofit)",
    img: "Langley Kai.png",
    opts: {
       faction: "eagle",
@@ -2882,7 +2887,7 @@ dataSet[dataSetVersion].characterData = [
    }
  },
  {
-   name: "Saratoga Retrofit",
+   name: "Saratoga (Retrofit)",
    img: "Saratoga Kai.png",
    opts: {
       faction: "eagle",
@@ -2890,7 +2895,7 @@ dataSet[dataSetVersion].characterData = [
    }
  },
  {
-   name: "Ranger Retrofit",
+   name: "Ranger (Retrofit)",
    img: "Ranger Kai.png",
    opts: {
       faction: "eagle",
@@ -2898,7 +2903,7 @@ dataSet[dataSetVersion].characterData = [
    }
  },
  {
-   name: "Acasta Retrofit",
+   name: "Acasta (Retrofit)",
    img: "Acasta Kai.png",
    opts: {
       faction: "royal",
@@ -2906,7 +2911,7 @@ dataSet[dataSetVersion].characterData = [
    }
  },
  {
-   name: "Ardent Retrofit",
+   name: "Ardent (Retrofit)",
    img: "Ardent Kai.png",
    opts: {
       faction: "royal",
@@ -2914,7 +2919,7 @@ dataSet[dataSetVersion].characterData = [
    }
  },
  {
-   name: "Comet Retrofit",
+   name: "Comet (Retrofit)",
    img: "Comet Kai.png",
    opts: {
       faction: "royal",
@@ -2922,7 +2927,7 @@ dataSet[dataSetVersion].characterData = [
    }
  },
  {
-   name: "Crescent Retrofit",
+   name: "Crescent (Retrofit)",
    img: "Crescent Kai.png",
    opts: {
       faction: "royal",
@@ -2930,7 +2935,7 @@ dataSet[dataSetVersion].characterData = [
    }
  },
  {
-   name: "Cygnet Retrofit",
+   name: "Cygnet (Retrofit)",
    img: "Cygnet Kai.png",
    opts: {
       faction: "royal",
@@ -2938,7 +2943,7 @@ dataSet[dataSetVersion].characterData = [
    }
  },
  {
-   name: "Foxhound Retrofit",
+   name: "Foxhound (Retrofit)",
    img: "Foxhound Kai.png",
    opts: {
       faction: "royal",
@@ -2946,7 +2951,7 @@ dataSet[dataSetVersion].characterData = [
    }
  },
  {
-   name: "Fortune Retrofit",
+   name: "Fortune (Retrofit)",
    img: "Fortune Kai.png",
    opts: {
       faction: "royal",
@@ -2954,7 +2959,7 @@ dataSet[dataSetVersion].characterData = [
    }
  },
  {
-   name: "Javelin Retrofit",
+   name: "Javelin (Retrofit)",
    img: "Javelin Kai.png",
    opts: {
       faction: "royal",
@@ -2962,7 +2967,7 @@ dataSet[dataSetVersion].characterData = [
    }
  },
  {
-   name: "Leander Retrofit",
+   name: "Leander (Retrofit)",
    img: "Leander Kai.png",
    opts: {
       faction: "royal",
@@ -2970,7 +2975,7 @@ dataSet[dataSetVersion].characterData = [
    }
  },
  {
-   name: "Achilles Retrofit",
+   name: "Achilles (Retrofit)",
    img: "Achilles Kai.png",
    opts: {
       faction: "royal",
@@ -2978,7 +2983,7 @@ dataSet[dataSetVersion].characterData = [
    }
  },
  {
-   name: "Ajax Retrofit",
+   name: "Ajax (Retrofit)",
    img: "Ajax Kai.png",
    opts: {
       faction: "royal",
@@ -2986,7 +2991,7 @@ dataSet[dataSetVersion].characterData = [
    }
  },
  {
-   name: "London Retrofit",
+   name: "London (Retrofit)",
    img: "London Kai.png",
    opts: {
       faction: "royal",
@@ -2994,7 +2999,7 @@ dataSet[dataSetVersion].characterData = [
    }
  },
  {
-   name: "Suffolk Retrofit",
+   name: "Suffolk (Retrofit)",
    img: "Suffolk Kai.png",
    opts: {
       faction: "royal",
@@ -3002,7 +3007,7 @@ dataSet[dataSetVersion].characterData = [
    }
  },
  {
-   name: "York Retrofit",
+   name: "York (Retrofit)",
    img: "York Kai.png",
    opts: {
       faction: "royal",
@@ -3010,7 +3015,7 @@ dataSet[dataSetVersion].characterData = [
    }
  },
  {
-   name: "Exeter Retrofit",
+   name: "Exeter (Retrofit)",
    img: "Exeter Kai.png",
    opts: {
       faction: "royal",
@@ -3018,7 +3023,7 @@ dataSet[dataSetVersion].characterData = [
    }
  },
  {
-   name: "Warspite Retrofit",
+   name: "Warspite (Retrofit)",
    img: "Warspite Kai.png",
    opts: {
       faction: "royal",
@@ -3026,7 +3031,7 @@ dataSet[dataSetVersion].characterData = [
    }
  },
  {
-   name: "Hermes Retrofit",
+   name: "Hermes (Retrofit)",
    img: "Hermes Kai.png",
    opts: {
       faction: "royal",
@@ -3035,7 +3040,7 @@ dataSet[dataSetVersion].characterData = [
    }
  },
  {
-   name: "Ayanami Retrofit",
+   name: "Ayanami (Retrofit)",
    img: "Ayanami Kai.png",
    opts: {
       faction: "sakura",
@@ -3043,7 +3048,7 @@ dataSet[dataSetVersion].characterData = [
    }
  },
  {
-   name: "Shigure Retrofit",
+   name: "Shigure (Retrofit)",
    img: "Shigure Kai.png",
    opts: {
       faction: "sakura",
@@ -3052,7 +3057,7 @@ dataSet[dataSetVersion].characterData = [
    }
  },
  {
-   name: "Kagerou Retrofit",
+   name: "Kagerou (Retrofit)",
    img: "Kagerou Kai.png",
    opts: {
       faction: "sakura",
@@ -3060,7 +3065,7 @@ dataSet[dataSetVersion].characterData = [
    }
  },
  {
-   name: "Shiranui Retrofit",
+   name: "Shiranui (Retrofit)",
    img: "Shiranui Kai.png",
    opts: {
       faction: "sakura",
@@ -3068,7 +3073,7 @@ dataSet[dataSetVersion].characterData = [
    }
  },
  {
-   name: "Yuugure Retrofit",
+   name: "Yuugure (Retrofit)",
    img: "Yuugure Kai.png",
    opts: {
       faction: "sakura",
@@ -3077,7 +3082,7 @@ dataSet[dataSetVersion].characterData = [
    }
  },
  {
-   name: "Yuubari Retrofit",
+   name: "Yuubari (Retrofit)",
    img: "Yuubari Kai.png",
    opts: {
       faction: "sakura",
@@ -3086,7 +3091,7 @@ dataSet[dataSetVersion].characterData = [
    }
  },
  {
-   name: "Abukuma Retrofit",
+   name: "Abukuma (Retrofit)",
    img: "Abukuma Kai.png",
    opts: {
       faction: "sakura",
@@ -3094,7 +3099,7 @@ dataSet[dataSetVersion].characterData = [
    }
  },
  {
-   name: "Mogami Retrofit",
+   name: "Mogami (Retrofit)",
    img: "Mogami Kai.png",
    opts: {
       faction: "sakura",
@@ -3102,7 +3107,7 @@ dataSet[dataSetVersion].characterData = [
    }
  },
  {
-   name: "Furutaka Retrofit",
+   name: "Furutaka (Retrofit)",
    img: "Furutaka Kai.png",
    opts: {
       faction: "sakura",
@@ -3110,7 +3115,7 @@ dataSet[dataSetVersion].characterData = [
    }
  },
  {
-   name: "Kako Retrofit",
+   name: "Kako (Retrofit)",
    img: "Kako Kai.png",
    opts: {
       faction: "sakura",
@@ -3118,7 +3123,7 @@ dataSet[dataSetVersion].characterData = [
    }
  },
  {
-   name: "Fusou Retrofit",
+   name: "Fusou (Retrofit)",
    img: "Fusou Kai.png",
    opts: {
       faction: "sakura",
@@ -3126,7 +3131,7 @@ dataSet[dataSetVersion].characterData = [
    }
  },
  {
-   name: "Yamashiro Retrofit",
+   name: "Yamashiro (Retrofit)",
    img: "Yamashiro Kai.png",
    opts: {
       faction: "sakura",
@@ -3134,7 +3139,7 @@ dataSet[dataSetVersion].characterData = [
    }
  },
  {
-   name: "Ise Retrofit",
+   name: "Ise (Retrofit)",
    img: "Ise Kai.png",
    opts: {
       faction: "sakura",
@@ -3142,7 +3147,7 @@ dataSet[dataSetVersion].characterData = [
    }
  },
  {
-   name: "Hyuuga Retrofit",
+   name: "Hyuuga (Retrofit)",
    img: "Hyuuga Kai.png",
    opts: {
       faction: "sakura",
@@ -3150,7 +3155,7 @@ dataSet[dataSetVersion].characterData = [
    }
  },
  {
-   name: "Shouhou Retrofit",
+   name: "Shouhou (Retrofit)",
    img: "Shouhou Kai.png",
    opts: {
       faction: "sakura",
@@ -3158,7 +3163,7 @@ dataSet[dataSetVersion].characterData = [
    }
  },
  {
-   name: "Souryuu Retrofit",
+   name: "Souryuu (Retrofit)",
    img: "Souryuu Kai.png",
    opts: {
       faction: "sakura",
@@ -3166,7 +3171,7 @@ dataSet[dataSetVersion].characterData = [
    }
  },
  {
-   name: "Hiryuu Retrofit",
+   name: "Hiryuu (Retrofit)",
    img: "Hiryuu Kai.png",
    opts: {
       faction: "sakura",
@@ -3174,7 +3179,7 @@ dataSet[dataSetVersion].characterData = [
    }
  },
  {
-   name: "Z1 Retrofit",
+   name: "Z1 (Retrofit)",
    img: "Z1 Kai.png",
    opts: {
       faction: "iron",
@@ -3182,7 +3187,7 @@ dataSet[dataSetVersion].characterData = [
    }
  },
  {
-   name: "Z23 Retrofit",
+   name: "Z23 (Retrofit)",
    img: "Z23 Kai.png",
    opts: {
       faction: "iron",
@@ -3190,7 +3195,7 @@ dataSet[dataSetVersion].characterData = [
    }
  },
  {
-   name: "Karlsruhe Retrofit",
+   name: "Karlsruhe (Retrofit)",
    img: "Karlsruhe Kai.png",
    opts: {
       faction: "iron",
@@ -3198,15 +3203,15 @@ dataSet[dataSetVersion].characterData = [
    }
  },
  {
-   name: "Kôln Retrofit",
-   img: "Kôln Kai.png",
+   name: "Köln (Retrofit)",
+   img: "Koln Kai.png",
    opts: {
       faction: "iron",
    retro: true
    }
  },
  {
-   name: "Leipzig Retrofit",
+   name: "Leipzig (Retrofit)",
    img: "Leipzig Kai.png",
    opts: {
       faction: "iron",
@@ -3214,7 +3219,7 @@ dataSet[dataSetVersion].characterData = [
    }
  },
  {
-   name: "Ning Hai Retrofit",
+   name: "Ning Hai (Retrofit)",
    img: "Ning Hai Kai.png",
    opts: {
       faction: "dragon",
@@ -3222,7 +3227,7 @@ dataSet[dataSetVersion].characterData = [
    }
  },
  {
-   name: "Ping Hai Retrofit",
+   name: "Ping Hai (Retrofit)",
    img: "Ping Hai Kai.png",
    opts: {
       faction: "dragon",
@@ -3230,7 +3235,7 @@ dataSet[dataSetVersion].characterData = [
    }
  },
  {
-   name: "Bailey Retrofit",
+   name: "Bailey (Retrofit)",
    img: "Bailey Kai.png",
    opts: {
       faction: "eagle",
@@ -3238,7 +3243,7 @@ dataSet[dataSetVersion].characterData = [
    }
  },
  {
-   name: "Kamikaze Retrofit",
+   name: "Kamikaze (Retrofit)",
    img: "Kamikaze Kai.png",
    opts: {
       faction: "sakura",
@@ -3246,7 +3251,7 @@ dataSet[dataSetVersion].characterData = [
    }
  },
  {
-   name: "Matsukaze Retrofit",
+   name: "Matsukaze (Retrofit)",
    img: "Matsukaze Kai.png",
    opts: {
       faction: "sakura",
@@ -3254,7 +3259,7 @@ dataSet[dataSetVersion].characterData = [
    }
  },
  {
-   name: "Mutsuki Retrofit",
+   name: "Mutsuki (Retrofit)",
    img: "Mutsuki Kai.png",
    opts: {
       faction: "sakura",
@@ -3262,7 +3267,7 @@ dataSet[dataSetVersion].characterData = [
    }
  },
  {
-   name: "Kisaragi Retrofit",
+   name: "Kisaragi (Retrofit)",
    img: "Kisaragi Kai.png",
    opts: {
       faction: "sakura",
@@ -3271,7 +3276,7 @@ dataSet[dataSetVersion].characterData = [
    }
  },
  {
-   name: "Nicholas Retrofit",
+   name: "Nicholas (Retrofit)",
    img: "Nicholas Kai.png",
    opts: {
       faction: "eagle",
@@ -3279,7 +3284,7 @@ dataSet[dataSetVersion].characterData = [
    }
  },
  {
-   name: "Sendai Retrofit",
+   name: "Sendai (Retrofit)",
    img: "Sendai Kai.png",
    opts: {
       faction: "sakura",
@@ -3287,7 +3292,7 @@ dataSet[dataSetVersion].characterData = [
    }
  },
  {
-   name: "Jintsuu Retrofit",
+   name: "Jintsuu (Retrofit)",
    img: "Jintsuu Kai.png",
    opts: {
       faction: "sakura",
@@ -3295,7 +3300,7 @@ dataSet[dataSetVersion].characterData = [
    }
  },
  {
-   name: "Hamakaze Retrofit",
+   name: "Hamakaze (Retrofit)",
    img: "Hamakaze Kai.png",
    opts: {
       faction: "sakura",
@@ -3303,7 +3308,7 @@ dataSet[dataSetVersion].characterData = [
    }
  },
  {
-   name: "Tanikaze Retrofit",
+   name: "Tanikaze (Retrofit)",
    img: "Tanikaze Kai.png",
    opts: {
       faction: "sakura",
@@ -3311,7 +3316,7 @@ dataSet[dataSetVersion].characterData = [
    }
  },
  {
-   name: "Forbin Retrofit",
+   name: "Forbin (Retrofit)",
    img: "Forbin Kai.png",
    opts: {
       faction: "iris",
@@ -3319,7 +3324,7 @@ dataSet[dataSetVersion].characterData = [
    }
  },
  {
-   name: "Emile Bertin Retrofit",
+   name: "Emile Bertin (Retrofit)",
    img: "Emile Bertin Kai.png",
    opts: {
       faction: "iris",
@@ -3327,7 +3332,7 @@ dataSet[dataSetVersion].characterData = [
    }
  },
  {
-   name: "Le Mars Retrofit",
+   name: "Le Mars (Retrofit)",
    img: "Le Mars Kai.png",
    opts: {
       faction: "vichya",
@@ -3335,7 +3340,7 @@ dataSet[dataSetVersion].characterData = [
    }
  },
  {
-   name: "Newcastle Retrofit",
+   name: "Newcastle (Retrofit)",
    img: "Newcastle Kai.png",
    opts: {
       faction: "royal",
@@ -3344,7 +3349,7 @@ dataSet[dataSetVersion].characterData = [
    }
  },
  {
-   name: "Curacoa Retrofit",
+   name: "Curacoa (Retrofit)",
    img: "Curacoa Kai.png",
    opts: {
       faction: "royal",
@@ -3353,7 +3358,7 @@ dataSet[dataSetVersion].characterData = [
    }
  },
  {
-   name: "Curlew Retrofit",
+   name: "Curlew (Retrofit)",
    img: "Curlew Kai.png",
    opts: {
       faction: "royal",
