@@ -155,18 +155,23 @@ input[type='checkbox'][disabled]:checked {
 }
 
 .sorter > .text {
-  width: 120px;
-  height: 60px;
-  display: none;
+	width: 120px;
+	height: 25px;
+	display: none;
+	transform: translateY(-50px);
+	background: rgba(0,0,0,0.6);
+	color: white;
+	pointer-events: none;
 }
 
 .sorter > .text > p {
-  font-family: 'Source Sans Pro', sans-serif;
-  margin: 0.5em 5px 0px;
-  width: calc(100%-10px);
-  text-align: center;
-  font-size: 0.8em;
-  line-height: 1.5em;
+	font-family: 'Source Sans Pro', sans-serif;
+	margin: 0.15em 5px;
+	width: calc(100% - 10px);
+	text-align: center;
+	font-size: 0.8em;
+	line-height: 1.5em;
+	font-weight: bolder;
 }
 
 .sorter > .left {
@@ -234,7 +239,7 @@ label:hover {
 @media all and (min-width: 600px) {
   .results {
     flex-flow: column wrap;
-    max-height: calc(5 * (175px + 2px) + 1 * (15px + 2px));
+    max-height: calc(7 * (175px + 2px) + 1 * (15px + 2px));
     /* 2px for borders */
   }
 }
