@@ -86,8 +86,8 @@ dataSet[dataSetVersion].characterData = [
     }
 },        
   {       
-    name: "Aru (New Year)",
-    img: "Aru (New Year).png",
+    name: "Aru New Year",
+    img: "Aru New Year.png",
     opts: {     
       jp: true,  
       dupe: true,  
@@ -102,8 +102,8 @@ dataSet[dataSetVersion].characterData = [
     }
 },        
   {       
-    name: "Asuna (Bunny Girl)",
-    img: "Asuna (New Year).png",
+    name: "Asuna Bunny Girl",
+    img: "Asuna New Year.png",
     opts: {     
       jp: true,  
       dupe: true,  
@@ -125,8 +125,8 @@ dataSet[dataSetVersion].characterData = [
     }
 },        
   {       
-    name: "Azusa (Swimsuit)",
-    img: "Azusa (Swimsuit).png",
+    name: "Azusa Swimsuit",
+    img: "Azusa Swimsuit.png",
     opts: {     
       dupe: true,
       school: "tri",
@@ -140,8 +140,8 @@ dataSet[dataSetVersion].characterData = [
     }
 },        
   {       
-    name: "Cherino (Hot Spring)",
-    img: "Cherino (Hot Spring).png",
+    name: "Cherino Hot Spring",
+    img: "Cherino Hot Spring.png",
     opts: {     
       jp: true,
       dupe: true,
@@ -163,8 +163,8 @@ dataSet[dataSetVersion].characterData = [
     }
 },        
   {       
-    name: "Chinatsu (Hot Spring)",
-    img: "Chinatsu (Hot Spring).png",
+    name: "Chinatsu Hot Spring",
+    img: "Chinatsu Hot Spring.png",
     opts: {     
       jp: true,
       dupe: true,
@@ -265,8 +265,8 @@ dataSet[dataSetVersion].characterData = [
     }
 },        
   {       
-    name: "Hifumi (Swimsuit)",
-    img: "Hifumi (Swimsuit).png",
+    name: "Hifumi Swimsuit",
+    img: "Hifumi Swimsuit.png",
     opts: {     
       school: "tri",
     }
@@ -279,8 +279,8 @@ dataSet[dataSetVersion].characterData = [
     }
 },        
   {       
-    name: "Hina (Swimsuit)",
-    img: "Hina (Swimsuit).png",
+    name: "Hina Swimsuit",
+    img: "Hina Swimsuit.png",
     opts: {     
       dupe: true,
       school: "geh",
@@ -309,8 +309,8 @@ dataSet[dataSetVersion].characterData = [
     }
 },        
   {       
-    name: "Iori (Swimsuit)",
-    img: "Iori (Swimsuit).png",
+    name: "Iori Swimsuit",
+    img: "Iori Swimsuit.png",
     opts: {     
       dupe: true,
       school: "geh",
@@ -324,8 +324,8 @@ dataSet[dataSetVersion].characterData = [
     }
 },        
   {       
-    name: "Izumi (Swimsuit)",
-    img: "Izumi (Swimsuit).png",
+    name: "Izumi Swimsuit",
+    img: "Izumi Swimsuit.png",
     opts: {     
       dupe: true,
       school: "geh",
@@ -360,8 +360,8 @@ dataSet[dataSetVersion].characterData = [
     }
 },        
   {       
-    name: "Karin (Bunny Girl)",
-    img: "Karin (Bunny Girl).png",
+    name: "Karin Bunny Girl",
+    img: "Karin Bunny Girl.png",
     opts: {     
       jp: true,
       dupe: true,
@@ -427,8 +427,8 @@ dataSet[dataSetVersion].characterData = [
     }
 },        
   {       
-    name: "Mashiro (Swimsuit)",
-    img: "Mashiro (Swimsuit).png",
+    name: "Mashiro Swimsuit",
+    img: "Mashiro Swimsuit.png",
     opts: {     
       dupe: true,  
       school: "tri",
@@ -464,8 +464,8 @@ dataSet[dataSetVersion].characterData = [
     }
 },        
   {       
-    name: "Mutsuki (New Year)",
-    img: "Mutsuki (New Year).png",
+    name: "Mutsuki New Year",
+    img: "Mutsuki New Year.png",
     opts: {     
       jp: true,
       dupe: true,
@@ -488,8 +488,8 @@ dataSet[dataSetVersion].characterData = [
     }
   },        
   {       
-    name: "Neru (Bunny Girl)",
-    img: "Neru (Bunny Girl).png",
+    name: "Neru Bunny Girl",
+    img: "Neru Bunny Girl.png",
     opts: {     
       school: "mil",
     }
@@ -502,8 +502,8 @@ dataSet[dataSetVersion].characterData = [
     }
   },        
   {       
-    name: "Nodoka (Hot Spring)",
-    img: "Nodoka (Hot Spring).png",
+    name: "Nodoka Hot Spring",
+    img: "Nodoka Hot Spring.png",
     opts: {     
       jp: true,
       school: "red",
@@ -531,8 +531,8 @@ dataSet[dataSetVersion].characterData = [
     }
   },        
   {       
-    name: "Saya (Casual)",
-    img: "Saya (Casual).png",
+    name: "Saya Casual",
+    img: "Saya Casual.png",
     opts: {     
       jp: true,
       school: "sha",
@@ -554,8 +554,8 @@ dataSet[dataSetVersion].characterData = [
     }
   },        
   {       
-    name: "Serika (New Year)",
-    img: "Serika (New Year).png",
+    name: "Serika New Year",
+    img: "Serika New Year.png",
     opts: {     
       school: "aby",
     }
@@ -582,8 +582,8 @@ dataSet[dataSetVersion].characterData = [
     }
   },        
   {       
-    name: "Shiroko (Riding)",
-    img: "Shiroko (Riding).png",
+    name: "Shiroko Riding",
+    img: "Shiroko Riding.png",
     opts: {     
       school: "aby",
     }
@@ -603,8 +603,8 @@ dataSet[dataSetVersion].characterData = [
     }
   },        
   {       
-    name: "Shun (Kid)",
-    img: "Shun (Kid).png",
+    name: "Shun Kid",
+    img: "Shun Kid.png",
     opts: {     
       dupe: true,
       jp: true,
@@ -648,8 +648,8 @@ dataSet[dataSetVersion].characterData = [
     }
   },        
   {       
-    name: "Tsurugi (Swimsuit)",
-    img: "Tsurugi (Swimsuit).png",
+    name: "Tsurugi Swimsuit",
+    img: "Tsurugi Swimsuit.png",
     opts: {     
       dupe: true,
       school: "tri",
