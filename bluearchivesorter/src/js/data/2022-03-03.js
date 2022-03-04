@@ -16,23 +16,23 @@ dataSet[dataSetVersion].options = [
       { name: "Shanhaijing", tooltip: "Shanhaijing Senior Secondary School", key: "sha" },
       { name: "Trinity", tooltip: "Trinity General School", key: "tri" },
       { name: "Valkyrie", tooltip: "Valkyrie Police Academy", key: "val" },
-      { name: "Arius", tooltip: "Arius Branch School", key: "ari", checked: false }
+      { name: "Arius", tooltip: "Arius Branch School", key: "ari" }
       ]
   },
   {
-    name: "Remove non-Global characters",
+    name: "Remove JP characters",
     key: "jp",
     tooltip: "Check this to remove characters not yet released in the Global version."
   },
   {
-    name: "Remove Costumes",
+    name: "Remove Alternate",
     key: "dupe",
-    tooltip: "Check this to remove costumes (Swimsuit, Casual, Kid, etc.)."
+    tooltip: "Check this to remove alternate versions (Swimsuit, Bunny Suit, Casual, etc.)."
   },
   {
     name: "Remove NPCs",
     key: "npc",
-    tooltip: "Check this to remove NPCs and enemies."
+    tooltip: "Check this to remove NPCs and enemies. (Incomplete with JP NPCs)"
   },
   {
     name: "Remove Collab Characters",
@@ -49,83 +49,84 @@ dataSet[dataSetVersion].characterData = [
     opts: {     
       school: "tri",
     }
-},        
+  },        
   {       
     name: "Akane",
     img: "Akane.png",
     opts: {     
       school: "mil",
     }
-},        
+  },        
   {       
     name: "Akari",
     img: "Akari.png",
     opts: {     
       school: "geh",
     }
-},        
+  },        
   {       
     name: "Ako",
     img: "Ako.png",
     opts: {     
+	  jp: true,
       school: "geh",
     }
-},        
+  },        
   {       
-    name: "アリス",
+    name: "<ruby>アリス<rp>(</rp><rt>arisu</rt><rp>)</rp></ruby>",
     img: "Arisu.png",
     opts: {     
       school: "mil",
     }
-},        
+  },        
   {       
     name: "Aru",
     img: "Aru.png",
     opts: {     
       school: "geh",
     }
-},        
+  },        
   {       
-    name: "Aru New Year",
+    name: "Aru (New Year)",
     img: "Aru New Year.png",
     opts: {     
       jp: true,  
       dupe: true,  
       school: "geh",
     }
-},        
+  },        
   {       
     name: "Asuna",
     img: "Asuna.png",
     opts: {     
       school: "mil",
     }
-},        
+  },        
   {       
-    name: "Asuna Bunny Girl",
-    img: "Asuna New Year.png",
+    name: "Asuna (Bunny Girl)",
+    img: "Asuna Bunny Girl.png",
     opts: {     
       jp: true,  
       dupe: true,  
       school: "geh",
     }
-},        
+  },        
   {       
     name: "Ayane",
     img: "Ayane.png",
     opts: {     
       school: "aby",
     }
-},        
+  },        
   {       
     name: "Azusa",
     img: "Azusa.png",
     opts: {     
       school: "tri",
     }
-},        
+  },        
   {       
-    name: "Azusa Swimsuit",
+    name: "Azusa (Swimsuit)",
     img: "Azusa Swimsuit.png",
     opts: {     
       dupe: true,
@@ -140,7 +141,7 @@ dataSet[dataSetVersion].characterData = [
     }
 },        
   {       
-    name: "Cherino Hot Spring",
+    name: "Cherino (Hot Spring)",
     img: "Cherino Hot Spring.png",
     opts: {     
       jp: true,
@@ -151,7 +152,8 @@ dataSet[dataSetVersion].characterData = [
   {       
     name: "Chihiro",
     img: "Chihiro.png",
-    opts: {     
+    opts: {
+	  jp: true,
       school: "mil",
     }
 },        
@@ -163,7 +165,7 @@ dataSet[dataSetVersion].characterData = [
     }
 },        
   {       
-    name: "Chinatsu Hot Spring",
+    name: "Chinatsu (Hot Spring)",
     img: "Chinatsu Hot Spring.png",
     opts: {     
       jp: true,
@@ -241,51 +243,52 @@ dataSet[dataSetVersion].characterData = [
     opts: {     
       school: "tri",
     }
-},        
+  },        
   {       
     name: "Hatsune Miku",
     img: "Hatsune Miku.png",
     opts: {     
       jp: true,
-      collab: true
+      collab: true,
     }
-},        
+  },        
   {       
     name: "Hibiki",
     img: "Hibiki.png",
     opts: {     
       school: "mil",
     }
-},        
+  },        
   {       
     name: "Hifumi",
     img: "Hifumi.png",
     opts: {     
       school: "tri",
     }
-},        
+  },        
   {       
-    name: "Hifumi Swimsuit",
+    name: "Hifumi (Swimsuit)",
     img: "Hifumi Swimsuit.png",
     opts: {     
+	  dupe: true,
       school: "tri",
     }
-},        
+  },        
   {       
     name: "Hina",
     img: "Hina.png",
     opts: {     
       school: "geh",
     }
-},        
+  },        
   {       
-    name: "Hina Swimsuit",
+    name: "Hina (Swimsuit)",
     img: "Hina Swimsuit.png",
     opts: {     
       dupe: true,
       school: "geh",
     }
-},        
+  },        
   {       
     name: "Hinata",
     img: "Hinata.png",
@@ -293,88 +296,88 @@ dataSet[dataSetVersion].characterData = [
       jp: true,
       school: "tri",
     }
-},        
+  },        
   {       
     name: "Hoshino",
     img: "Hoshino.png",
     opts: {     
       school: "aby",
     }
-},        
+  },        
   {       
     name: "Iori",
     img: "Iori.png",
     opts: {     
       school: "geh",
     }
-},        
+  },        
   {       
-    name: "Iori Swimsuit",
+    name: "Iori (Swimsuit)",
     img: "Iori Swimsuit.png",
     opts: {     
       dupe: true,
       school: "geh",
     }
-},        
+  },        
   {       
     name: "Izumi",
     img: "Izumi.png",
     opts: {     
       school: "geh",
     }
-},        
+  },        
   {       
-    name: "Izumi Swimsuit",
+    name: "Izumi (Swimsuit)",
     img: "Izumi Swimsuit.png",
     opts: {     
       dupe: true,
       school: "geh",
     }
-},        
+  },        
   {       
     name: "Izuna",
     img: "Izuna.png",
     opts: {     
       school: "hya",
     }
-},        
+  },        
   {       
     name: "Junko",
     img: "Junko.png",
     opts: {     
       school: "geh",
     }
-},        
+  },        
   {       
     name: "Juri",
     img: "Juri.png",
     opts: {     
       school: "geh",
     }
-},        
+  },        
   {       
     name: "Karin",
     img: "Karin.png",
     opts: {     
       school: "mil",
     }
-},        
+  },        
   {       
-    name: "Karin Bunny Girl",
+    name: "Karin (Bunny Girl)",
     img: "Karin Bunny Girl.png",
     opts: {     
       jp: true,
       dupe: true,
       school: "mil",
     }
-},        
+  },        
   {       
     name: "Kayoko",
     img: "Kayoko.png",
     opts: {     
       school: "geh",
     }
-},        
+  },        
   {       
     name: "Kirino",
     img: "Kirino.png",
@@ -382,35 +385,35 @@ dataSet[dataSetVersion].characterData = [
       jp: true,
       school: "val",
     }
-},        
+  },        
   {       
     name: "Koharu",
     img: "Koharu.png",
     opts: {     
       school: "tri",
     }
-},        
+  },        
   {       
     name: "Kotama",
     img: "Kotama.png",
     opts: {     
       school: "mil",
     }
-},        
+  },        
   {       
     name: "Kotori",
     img: "Kotori.png",
     opts: {     
       school: "mil",
     }
-},        
+  },        
   {       
     name: "Maki",
     img: "Maki.png",
     opts: {     
       school: "mil",
     }
-},        
+  },        
   {       
     name: "Mari",
     img: "Mari.png",
@@ -418,29 +421,29 @@ dataSet[dataSetVersion].characterData = [
       jp: true,  
       school: "tri",
     }
-},        
+  },        
   {       
     name: "Mashiro",
     img: "Mashiro.png",
     opts: {     
       school: "tri",
     }
-},        
+  },        
   {       
-    name: "Mashiro Swimsuit",
+    name: "Mashiro (Swimsuit)",
     img: "Mashiro Swimsuit.png",
     opts: {     
       dupe: true,  
       school: "tri",
     }
-},        
+  },        
   {       
     name: "Midori",
     img: "Midori.png",
     opts: {     
       school: "mil",
     }
-},        
+  },        
   {       
     name: "Mimori",
     img: "Mimori.png",
@@ -448,30 +451,30 @@ dataSet[dataSetVersion].characterData = [
       jp: true,
       school: "hya",
     }
-},        
+  },        
   {       
     name: "Momoi",
     img: "Momoi.png",
     opts: {     
       school: "mil",
     }
-},        
+  },        
   {       
     name: "Mutsuki",
     img: "Mutsuki.png",
     opts: {     
       school: "geh",
     }
-},        
+  },        
   {       
-    name: "Mutsuki New Year",
+    name: "Mutsuki (New Year)",
     img: "Mutsuki New Year.png",
     opts: {     
       jp: true,
       dupe: true,
       school: "geh",
     }
-},        
+  },        
   {       
     name: "Natsu",
     img: "Natsu.png",
@@ -479,7 +482,7 @@ dataSet[dataSetVersion].characterData = [
       jp: true,
       school: "tri",
     }
-},        
+  },        
   {       
     name: "Neru",
     img: "Neru.png",
@@ -488,9 +491,10 @@ dataSet[dataSetVersion].characterData = [
     }
   },        
   {       
-    name: "Neru Bunny Girl",
+    name: "Neru (Bunny Girl)",
     img: "Neru Bunny Girl.png",
-    opts: {     
+    opts: {   
+      dupe: true,
       school: "mil",
     }
   },        
@@ -502,9 +506,10 @@ dataSet[dataSetVersion].characterData = [
     }
   },        
   {       
-    name: "Nodoka Hot Spring",
+    name: "Nodoka (Hot Spring)",
     img: "Nodoka Hot Spring.png",
-    opts: {     
+    opts: {   
+      dupe: true,	
       jp: true,
       school: "red",
     }
@@ -531,9 +536,10 @@ dataSet[dataSetVersion].characterData = [
     }
   },        
   {       
-    name: "Saya Casual",
+    name: "Saya (Casual)",
     img: "Saya Casual.png",
     opts: {     
+	  dupe: true,
       jp: true,
       school: "sha",
     }
@@ -554,9 +560,10 @@ dataSet[dataSetVersion].characterData = [
     }
   },        
   {       
-    name: "Serika New Year",
+    name: "Serika (New Year)",
     img: "Serika New Year.png",
     opts: {     
+	  dupe: true,
       school: "aby",
     }
   },        
@@ -582,9 +589,10 @@ dataSet[dataSetVersion].characterData = [
     }
   },        
   {       
-    name: "Shiroko Riding",
+    name: "Shiroko (Riding)",
     img: "Shiroko Riding.png",
     opts: {     
+	  dupe: true,
       school: "aby",
     }
   },        
@@ -603,7 +611,7 @@ dataSet[dataSetVersion].characterData = [
     }
   },        
   {       
-    name: "Shun Kid",
+    name: "Shun (Kid)",
     img: "Shun Kid.png",
     opts: {     
       dupe: true,
@@ -648,7 +656,7 @@ dataSet[dataSetVersion].characterData = [
     }
   },        
   {       
-    name: "Tsurugi Swimsuit",
+    name: "Tsurugi (Swimsuit)",
     img: "Tsurugi Swimsuit.png",
     opts: {     
       dupe: true,
@@ -702,7 +710,8 @@ dataSet[dataSetVersion].characterData = [
   {       
     name: "Saori",
     img: "Saori.png",
-    opts: {     
+    opts: {
+	  npc: true,
       jp: true,
       school: "ari",
     }
@@ -710,7 +719,8 @@ dataSet[dataSetVersion].characterData = [
   {       
     name: "Atsuko",
     img: "Atsuko.png",
-    opts: {     
+    opts: {
+	  npc: true,
       jp: true,
       school: "ari",
     }
@@ -718,7 +728,8 @@ dataSet[dataSetVersion].characterData = [
   {       
     name: "Hiyori",
     img: "Hiyori.png",
-    opts: {     
+    opts: {
+	  npc: true,
       jp: true,
       school: "ari",
     }
@@ -726,9 +737,161 @@ dataSet[dataSetVersion].characterData = [
   {       
     name: "Misaki",
     img: "Misaki.png",
-    opts: {     
+    opts: {
+	  npc: true,
       jp: true,
       school: "ari",
     }
-  }       
+  }
+  /*
+  {       
+    name: "Rin",
+    img: "Rin.png",
+    opts: {
+	  npc: true,
+      jp: true,
+      school: "sch",
+    }
+  },
+  {       
+    name: "Arona",
+    img: "Arona.png",
+    opts: {
+	  npc: true,
+      jp: true,
+      school: "sch",
+    }
+  },
+  {       
+    name: "Momoka",
+    img: "Momoka.png",
+    opts: {
+	  npc: true,
+      jp: true,
+      school: "sch",
+    }
+  },
+  {       
+    name: "Sora",
+    img: "Sora.png",
+    opts: {
+	  npc: true,
+      jp: true,
+      school: "sch",
+    }
+  },
+  {       
+    name: "Makoto",
+    img: "Makoto.png",
+    opts: {
+	  npc: true,
+      jp: true,
+      school: "geh",
+    }
+  },
+  {       
+    name: "Satsuki",
+    img: "blank.png",
+    opts: {
+	  npc: true,
+      jp: true,
+      school: "geh",
+    }
+  },
+  {       
+    name: "Iroha",
+    img: "Iroha.png",
+    opts: {
+	  npc: true,
+      jp: true,
+      school: "geh",
+    }
+  },
+  {       
+    name: "Ibuki",
+    img: "Ibuki.png",
+    opts: {
+	  npc: true,
+      jp: true,
+      school: "geh",
+    }
+  },
+  {       
+    name: "Shigure",
+    img: "Shigure.png",
+    opts: {
+	  npc: true,
+      jp: true,
+      school: "red",
+    }
+  },
+  {       
+    name: "Koyuki",
+    img: "Koyuki.png",
+    opts: {
+	  npc: true,
+      jp: true,
+      school: "mil",
+    }
+  },
+  {       
+    name: "Himari",
+    img: "Himari.png",
+    opts: {
+	  npc: true,
+      jp: true,
+      school: "mil",
+    }
+  },
+  {       
+    name: "Seia",
+    img: "Seia.png",
+    opts: {
+	  npc: true,
+      jp: true,
+      school: "tri",
+    }
+  },
+  {       
+    name: "Mika",
+    img: "Mika.png",
+    opts: {
+	  npc: true,
+      school: "tri",
+    }
+  },
+  {       
+    name: "Nagisa",
+    img: "Nagisa.png",
+    opts: {
+	  npc: true,
+      school: "tri",
+    }
+  },
+  {       
+    name: "Mine",
+    img: "Mine.png",
+    opts: {
+	  npc: true,
+      jp: true,
+      school: "tri",
+    }
+  },
+  {       
+    name: "Kazusa",
+    img: "Kazusa.png",
+    opts: {
+	  npc: true,
+      jp: true,
+      school: "tri",
+    }
+  },
+  {       
+    name: "Sakurako",
+    img: "Sakurako.png",
+    opts: {
+	  npc: true,
+      jp: true,
+      school: "tri",
+    }*/
 ];
